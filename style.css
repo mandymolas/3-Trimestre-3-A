@@ -12,10 +12,30 @@ font-family: var(--font);
 height: 100vh;
 margin: 0;
         }
-        <head>
-<meta charset=”UTF-8”>
-<meta name=”viewport” content=”width=device-width,
-initial-scale=1.0”>
-<title>Redes Sociais</title>
-<link rel=”stylesheet” href=”style.css”>
-</head>
+header {
+background-color: var(--primary-color);
+text-align: center;
+padding: 1px;
+ }
+ h1 {
+font-size: 2rem;
+color: var(--bg-color);
+font-weight: 700;
+ }
+ nav {
+display: flex;
+ justify-content: center;
+font-weight: 400;
+                    
+} 
+nav a{
+text-decoration: none;
+color: var(--bg-color);
+margin: 0rem 2rem 3rem 0rem;
+font-size: 12rem;
+}
+nav a:hover {
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform 0.1s;
+    }
